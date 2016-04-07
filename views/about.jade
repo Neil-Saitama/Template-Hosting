@@ -1,0 +1,96 @@
+doctype html
+
+html 
+
+	head
+		meta(charset='utf8')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge, chrome=1')
+		meta(name='description', content='description of your site')
+		meta(name='author', content= "author of the site")
+		
+		<title>IT & HOSTING TEMPLATE</title>
+		<!-- BOOTSTRAP CORE STYLE CSS -->
+		link(href="/css/bootstrap.css", rel="stylesheet", type="text/css")
+		<!-- FONTAWESOME STYLE CSS -->
+		link(href="/css/font-awesome.css", rel="stylesheet", type="text/css")
+		<!-- CUSTOM STYLE CSS -->
+		link(href="/css/style.css", rel="stylesheet", type="text/css")
+
+		title= _path
+
+		!= css()
+
+		div(class="navbar navbar-inverse navbar-fixed-top ")
+			div(class="container")
+				div(class="navbar-header")
+					button(type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse")
+						span(class="icon-bar")
+						span(class="icon-bar")
+						span(class="icon-bar")
+					a(class="navbar-brand" href="#" ) 
+						<strong style=""></strong> H<i class="fa fa-globe"></i>ST <small >IT & HOSTING</small>
+
+				div(class="navbar-collapse collapse move-me")
+					ul(class="nav navbar-nav navbar-right set-links")
+						li
+							<a href="index.html" >HOME</a>
+						li
+							<a href="about.html" class="active-menu-item">ABOUT</a>
+						li
+							<a href="pricing.html">PRICING</a>
+						li
+							<a href="contact.html">CONTACT</a>
+						li
+							<a href="blank.html">BLANK</a>
+
+block content
+
+	section(class="headline-sec")
+		div(class="overlay")
+			h3 ABOUT US <i class="fa fa-angle-double-right "></i>
+
+	section
+		div(class="container")
+			div(class="row")
+				div(class="col-md-8")
+
+						h3
+							strong Overview Of Company
+						p
+							| Nunc at viverra risus. In euismod quam ac dictum varius. Nunc at viverra risus. In euismod quam ac dictum varius.
+							<strong>Nunc at viverra risus. In euismod quam ac dictum varius. </strong> Nunc at viverra risus. Nunc at viverra risus. Nunc at viverra risus. In euismod quam ac dictum varius. Nunc at viverra risus. <strong>  In euismod quam ac dictum varius. Nunc at viverra risus. In euismod quam ac dictum varius.</strong> Nunc at viverra risus. Nunc at viverra risus.
+						p
+							| Nunc at viverra risus. In euismod quam ac dictum varius. Nunc at viverra risus. <strong> In euismod quam ac dictum varius. Nunc at viverra risus. In euismod quam ac dictum varius.</strong> Nunc at viverra risus. Nunc at viverra risus.
+
+				div(class="col-md-4 p-top-row")
+					img(src="/img/about1.jpg" class="img-responsive img-rounded" alt="")
+
+			div(class="row p-top-row")
+				div(class="col-md-4 p-top-row ")
+
+					img(src="/img/about2.jpg" class="img-responsive img-rounded" alt="")
+
+				div(class="col-md-8")
+
+					h3 
+						strong Future Scope
+					p
+						| Nunc at viverra risus. In euismod quam ac dictum varius. Nunc at viverra risus. In euismod quam ac dictum varius.<strong> Nunc at viverra risus. In euismod quam ac dictum varius. </strong> Nunc at viverra risus. Nunc at viverra risus. Nunc at viverra risus. In euismod quam ac dictum varius. Nunc at viverra risus. <strong>  In euismod quam ac dictum varius. Nunc at viverra risus. In euismod quam ac dictum varius.</strong> Nunc at viverra risus. Nunc at viverra risus.
+					p
+						| Nunc at viverra risus. In euismod quam ac dictum varius. Nunc at viverra risus. <strong>  In euismod quam ac dictum varius. Nunc at viverra risus. In euismod quam ac dictum varius.</strong> Nunc at viverra risus. Nunc at viverra risus.
+			
+			div(class="row p-top-row")
+
+				div(class="col-md-8")
+
+						h3
+							strong Our Quality Policy
+						p
+							|Nunc at viverra risus. In euismod quam ac dictum varius. Nunc at viverra risus. In euismod quam ac dictum varius. <strong> Nunc at viverra risus. In euismod quam ac dictum varius. </strong> Nunc at viverra risus. Nunc at viverra risus. Nunc at viverra risus. In euismod quam ac dictum varius. Nunc at viverra risus. <strong>  In euismod quam ac dictum varius. Nunc at viverra risus. In euismod quam ac dictum varius.</strong> Nunc at viverra risus. Nunc at viverra risus.
+						p
+							| Nunc at viverra risus. In euismod quam ac dictum varius. Nunc at viverra risus. <strong> In euismod quam ac dictum varius. Nunc at viverra risus. In euismod quam ac dictum varius.</strong> Nunc at viverra risus. Nunc at viverra risus.
+
+				div(class="col-md-4 p-top-row ")
+					img(src="/img/about3.jpg", class="img-responsive img-rounded", alt="")
+
+include footer

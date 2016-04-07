@@ -1,0 +1,60 @@
+doctype html
+
+html 
+
+	head
+		meta(charset='utf8')
+		meta(http-equiv='X-UA-Compatible', content='IE=edge, chrome=1')
+		meta(name='description', content='description of your site')
+		meta(name='author', content= "author of the site")
+		
+		<title>IT & HOSTING TEMPLATE</title>
+		<!-- BOOTSTRAP CORE STYLE CSS -->
+		link(href="/css/bootstrap.css", rel="stylesheet", type="text/css")
+		<!-- FONTAWESOME STYLE CSS -->
+		link(href="/css/font-awesome.css", rel="stylesheet", type="text/css")
+		<!-- CUSTOM STYLE CSS -->
+		link(href="/css/style.css", rel="stylesheet", type="text/css")
+
+		title= _path
+
+		!= css()
+
+		div(class="navbar navbar-inverse navbar-fixed-top ")
+			div(class="container")
+				div(class="navbar-header")
+					button(type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse")
+						span(class="icon-bar")
+						span(class="icon-bar")
+						span(class="icon-bar")
+					a(class="navbar-brand" href="#" ) 
+						<strong style=""></strong> H<i class="fa fa-globe"></i>ST <small >IT & HOSTING</small>
+
+				div(class="navbar-collapse collapse move-me")
+					ul(class="nav navbar-nav navbar-right set-links")
+						li
+							<a href="index.html" >HOME</a>
+						li
+							<a href="about.html">ABOUT</a>
+						li
+							<a href="pricing.html">PRICING</a>
+						li
+							<a href="contact.html">CONTACT</a>
+						li
+							<a href="blank.html" class="active-menu-item">BLANK</a>
+
+block content
+
+	section(class="headline-sec")
+		div(class="overlay")
+			h3 BLANK PAGE <i class="fa fa-angle-double-right "></i>
+
+	<!--HOME SECTION END-->
+	section
+		div(class="container")
+			div(class="row")
+				div(class="col-md-12" style="min-height:800px;")
+					div(class="alert alert-info")
+						| This is the blank page that you can use to customize or add you content in this template. For more templates keep looking <a href="http://www.binarytheme.com" target="_blank"  >binarytheme.com</a>
+
+include footer
